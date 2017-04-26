@@ -1,0 +1,3 @@
+class Aufgabe710{
+
+}
