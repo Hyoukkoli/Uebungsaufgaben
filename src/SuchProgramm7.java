@@ -26,11 +26,11 @@ class SuchProgramm7{
 
     //Aufgabe 7.16
     static Aufgabe72 lSuche(Quellcode74 eineListe, int m){
-        if (eineListe.wert.gibtMatrikelnummer() == m){
+        if (eineListe.gibWert().gibtMatrikelnummer() == m){
             return eineListe.gibWert();
         } else{
             if (eineListe.gibNaechstes() != null){
-                lSuche(eineListe.gibNaechstes(), m);
+                return lSuche(eineListe.gibNaechstes(), m);
             } else {
                 return null;
             }
@@ -39,7 +39,7 @@ class SuchProgramm7{
 
     public static  void main(String[] args){
 
-        int m = 272598;
+        int m = 27298;
 
         //step 1
         Quellcode74 dliste = new Quellcode74();
