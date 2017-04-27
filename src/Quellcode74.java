@@ -17,4 +17,6 @@ class Quellcode74{
     void setzteNaechstes (Quellcode74 einnaechstes){
         naechstes = einnaechstes;
     }
+
+
 }
