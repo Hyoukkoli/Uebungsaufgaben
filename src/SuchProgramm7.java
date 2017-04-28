@@ -11,6 +11,7 @@ class SuchProgramm7{
             return null;
     }
 
+    //Aufgabe 7.14
     static void lFuegeEin(Quellcode74 eineListe, Quellcode74 einElement){
         if (eineListe == null){
             eineListe = einElement;
